@@ -5,10 +5,12 @@ I know that is has no use but its great to show it to your friends and make some
 
 
 ## Usage:
-* import image you want to convert to pixel art and rename it to image.[extension]
-* open main.py and insert your configuration:
+* import image you want to convert to pixel art and rename it to `image.[extension]`
+* open `main.py` and insert your configuration:
 * * resolution of the pixel-art
 * * pixel size
-* your output will be in index.html file ready to open in your browser
+* your output will be in `index.html` file ready to open in your browser
 
 #### I imported sample image with output so you can look it up :P
+
+# Do not edit `template.html` file
