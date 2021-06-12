@@ -1,10 +1,10 @@
-#Create HTML Pixel-Art by image
+# Create HTML Pixel-Art by image
 
-####Every single pixel is just a square div with diffrent background nothing special :D
+#### Every single pixel is just a square div with diffrent background nothing special :D
 I know that is has no use but its great to show it to your friends and make some fun out of it :)
 
 
-##Usage:
+## Usage:
 * import image you want to convert to pixel art and rename it to image.[extension]
 * open main.py and insert your configuration:
 * * resolution of the pixel-art
