@@ -1,5 +1,5 @@
+# author: https://github.com/Butterski
 from PIL import Image
-import json
 import string
 
 im = Image.open('image.png').convert('RGB')
@@ -28,7 +28,6 @@ def generate_art(option, stretch):
         for x in range(0, width, int(option)):
             content += f'<div class="pixel" style="background-color: {rgb_of_pixel(x, y)}"></div>'
 
-    #final_pixel_size = template.substitute(pixels=stretch)
     final_output = template.substitute(divs=content, pixels=stretch)
     with open("index.html", "w") as output:
         output.write(final_output)
